@@ -1,0 +1,97 @@
+.home{
+  .info-section{
+    width: 35%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 54px;
+
+    .icon-section{
+      a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.7rem;
+        padding: 0 10px;
+        &:first-child{
+          padding: 0 10px 0 0;
+        }
+      }
+
+    }
+    .logo{
+      background: white;
+      height: 100px;
+      width: 200px;
+    }
+    .info-box{
+      position: absolute;
+      bottom: 60px;
+      h4{
+        font-size: 1.2rem;
+        color: $white;
+        margin: 0.7rem 0
+      }
+      p{
+        font-size: 0.9rem;
+        color: $white;
+        margin: 0.2rem 0 1.5rem;
+      }
+    }
+  }
+
+
+  .content-area {
+    background: white;
+    height: 100%;
+    width: 65%;
+    margin-left: 35%;
+    .img-container {
+      display: inline-block;
+      width: 25%;
+      position: relative;
+      height: 100%;
+      .user-img{
+        position: absolute;
+        top: 56px;
+        left: -250px;
+        height: calc(100% - 112px);
+        width: 400px;
+        background: url('../img/me.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+    }
+    .profile-section{
+      vertical-align: top;
+      display: inline-block;
+      max-width: 500px;
+      padding: 25% 0 0 0;
+      .profile{
+        h1{
+          font-size: 2.3rem;
+          font-weight: 500;
+          line-height: 1.2;
+          margin: 0 0 1rem 0;
+          span{
+            color: $mint;
+          }
+        }
+        h5{
+          font-size: 1.1rem;
+          margin: 0 0 2rem;
+          }
+        p{
+          color: $lightGrey;
+          font-weight: 300;
+          line-height: 1.4;
+          margin: 0 0 2rem 0;
+        }
+        }
+      }
+
+    }
+  }

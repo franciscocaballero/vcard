@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "parcel src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francisco Caballero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
 }
