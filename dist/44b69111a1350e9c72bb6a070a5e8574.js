@@ -69,7 +69,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({8:[function(require,module,exports) {
+})({9:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -132,13 +132,13 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":8}],3:[function(require,module,exports) {
+},{"./bundle-url":9}],3:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/me.png":["df84db5a116efa4e05c50e2924fdbb03.png",10],"_css_loader":4}],2:[function(require,module,exports) {
+},{"./../img/me.png":["df84db5a116efa4e05c50e2924fdbb03.png",5],"_css_loader":4}],2:[function(require,module,exports) {
 "use strict";
 
 require("../scss/main.scss");
@@ -160,7 +160,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':51624/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':60413/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
