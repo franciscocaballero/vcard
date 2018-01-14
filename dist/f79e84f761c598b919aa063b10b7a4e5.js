@@ -132,18 +132,7 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":14}],4:[function(require,module,exports) {
-
-        var reloadCSS = require('_css_loader');
-        module.hot.dispose(reloadCSS);
-        module.hot.accept(reloadCSS);
-      
-},{"./../img/me.png":["df84db5a116efa4e0,5:[function(require,module,exports) {
-"u,5:[function(require,module,exports) {
-"use strict";
-
-require("../scs,0:[function(require,module,exports) {
-va,0:[function(require,module,exports) {
+},{"./bundle-url":14}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -259,7 +248,7 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return hm},{},[0,5])bal.require, id)
+    return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,5])
+},{}]},{},[0])

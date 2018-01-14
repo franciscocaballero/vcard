@@ -1,6 +1,9 @@
 @import "reset";
 @import "variables";
 @import "home";
+@import "resume";
+@import "infoSection";
+@import "work";
 
 * {
   box-sizing: border-box;
@@ -8,7 +11,7 @@
 
 html, body{
   font-size: 18px;
-  background: $mint;
+  background: $grad;
   font-family: 'Barlow Semi Condensed', sans-serif;
   height: 100%;
 }
@@ -126,4 +129,12 @@ html, body{
     bottom: 0;
     transform: translate3d(0,0,0);
   }
+}
+
+.scroll-section{
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 56px;
+
 }
