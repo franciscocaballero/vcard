@@ -69,7 +69,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({14:[function(require,module,exports) {
+})({15:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -100,7 +100,7 @@ function getBaseURL(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 
-},{}],6:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -132,14 +132,14 @@ function reloadCSS() {
 
 module.exports = reloadCSS;
 
-},{"./bundle-url":14}],4:[function(require,module,exports) {
+},{"./bundle-url":15}],5:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/me.png":["df84db5a116efa4e0,5:[function(require,module,exports) {
-"u,5:[function(require,module,exports) {
+},{"./../img/me.png":["df84db5a116efa4e0,6:[function(require,module,exports) {
+"u,6:[function(require,module,exports) {
 "use strict";
 
 require("../scs,0:[function(require,module,exports) {
@@ -161,7 +161,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':59802/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':63308/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
@@ -259,7 +259,7 @@ function hmrAccept(bundle, id) {
   }
 
   return getParents(global.require, id).some(function (id) {
-    return hm},{},[0,5])bal.require, id)
+    return hm},{},[0,6])bal.require, id)
   });
 }
-},{}]},{},[0,5])
+},{}]},{},[0,6])
